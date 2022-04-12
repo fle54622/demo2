@@ -84,3 +84,4 @@ production:
   database: demo2_production
   username: demo2
   password: <%= ENV["DEMO2_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
